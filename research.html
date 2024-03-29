@@ -7,8 +7,17 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <style>
         body, .wrapper.style4 {
-            background-color: white; /* Set background to white */
-            color: black; /* Optional: Set text color to black for better readability */
+            background-color: white;
+            color: black;
+        }
+        ul.custom-list {
+            list-style-position: inside;
+            text-align: left;
+            padding-left: 1em;
+        }
+        ul.custom-list li {
+            text-indent: -1em;
+            padding-left: 1em;
         }
     </style>
 </head>
@@ -29,7 +38,7 @@
             <!-- Papers Section -->
             <div>
                 <h2>Works in Progress</h2>
-                <ul>
+                <ul class="custom-list">
                     <li>Grassroots to Governance: How School Walkouts Shaped Local Gun Policies</li>
                     <li>The Effect of Holistic, Wrap-Around, Intensive Case Management on Employment: Evidence from a Randomized Controlled Trial (with Javier Espinosa, William Evans, and David Phillips)</li>
                     <li>Firm Behavior to Dual Minimum Wage Policies (with Ethan Jenkins and Pietro Pellerito)</li>

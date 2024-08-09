@@ -11,22 +11,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <style>
-        /* Centering the header */
+        /* Centering the header using flexbox */
+        .container.medium {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* This centers the items horizontally */
+        }
+
         h1 {
-            text-align: center;
-            margin: 0 auto;
-            width: 100%; /* Ensures the h1 spans the full width of its container */
+            margin: 0; /* Reset any default margin */
         }
 
         /* Other elements remain left-aligned */
         h2, h3, p, ul {
             text-align: left;
-        }
-
-        /* Centering the content container */
-        .container.medium {
-            text-align: center; /* Ensures that the content inside the container is centered */
-            margin: 0 auto; /* Centers the container itself */
+            width: 100%; /* Ensure these elements take the full width of their container */
         }
     </style>
 </head>

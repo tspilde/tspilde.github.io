@@ -14,6 +14,18 @@
         h2, h3, p, ul {
             text-align: left;
         }
+        /* Centering the nav */
+        #nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        #nav ul li {
+            margin: 0 10px; /* Adjust spacing between items */
+        }
     </style>
 </head>
 <body class="is-preload">
@@ -46,10 +58,12 @@
             </section>
         </div>
     </article>
+    
     <!-- Footer -->
     <footer>
         <!-- Footer Content -->
     </footer>
+
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>

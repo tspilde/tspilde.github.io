@@ -1,0 +1,30 @@
+<nav id="page-navbar" class="navbar navbar-expand-md bg-light navbar-light">
+    <div class="container">
+    <!-- <div class="container"> -->
+      <!-- <a class="navbar-brand pl-2 active" href="index.html">Home</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fa fa-bars fa-fw black"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-body">
+        <ul class="navbar-nav ml-auto mr-2 pr-2">
+          <li id="research" class="nav-item text-white mr-2 active">
+            <a class="nav-link" href="index.html" >Home</a>
+          </li>
+          <li id="research" class="nav-item text-white mr-2">
+            <a class="nav-link" href="/uploads/Downes_CV.pdf" target="_blank">CV</a>
+          </li>
+          <li id="research" class="nav-item text-white mr-2">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+            <li id="research" class="nav-item text-white mr-2">
+              <a class="nav-link" href="teaching.html">Teaching</a>
+            </li>
+            <li id="research" class="nav-item text-white mr-2">
+              <a class="nav-link" href="media.html">Media</a>
+            </li>
+        </ul>
+      </div>
+    <!-- </div> -->
+    </div>
+  </nav>
